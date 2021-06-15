@@ -9,4 +9,6 @@
 
 > 3. Both the server and the client need to be turned on. Then the server needs to log in to the root user.
 
+> 4. test line from ubuntu ssh 
+
 
