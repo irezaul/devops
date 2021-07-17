@@ -35,3 +35,22 @@ PermitRootLogin yes
 ```bash
 sudo hostnamectl set-hostname master-node
 ```
+#### if not change hostname follow the step
+```bash
+nano /etc/gdm3/custom.conf
+```
+> type `AllowRoot=true`
+> then 
+```bash
+nano /etc/pam.d/gdm-password
+```
+> uncomment the `Auth Required`
+
+![Auth](https://user-images.githubusercontent.com/77927449/126047796-e2379dd2-cd36-4ef6-bb71-b8e068b777c5.gif)
+
+> save & reboot
+#### Now use again the change the hostname
+```bash
+sudo hostnamectl set-hostname master-node
+```
+
